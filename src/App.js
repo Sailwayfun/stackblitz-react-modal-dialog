@@ -13,8 +13,6 @@ export default function App() {
   function handleModalClose(e) {
     setModalOpen(false);
   }
-  console.log('modalOpen:', modalOpen);
-  console.log('portal:', portal);
   return (
     <div>
       <h1>Hello StackBlitz!</h1>
