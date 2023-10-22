@@ -3,7 +3,6 @@ import { useRef } from 'react';
 const Modal = ({ onModalClose, modalOpen }) => {
   const modalRef = useRef();
   modalOpen ? modalRef.current?.showModal() : modalRef.current?.close();
-  console.log(modalRef.current);
   return (
     <dialog ref={modalRef}>
       <div class="modal-wrap">
